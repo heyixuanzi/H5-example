@@ -133,7 +133,7 @@ body {
 
 /*page_2*/
 #page2 {
-   display: block;
+   display: none;
 }
 
 #page2 .bg {
@@ -201,7 +201,7 @@ body {
 
 /*page_3*/
 #page3 {
-   display: none;
+   display: block;
 }
 
 #page3 .bg {
@@ -210,21 +210,59 @@ body {
 }
 
 #page3 .p3_logo {
-
+    width: 34.6875vw;
+    height: 6.327vh;
+    position: absolute;
+    margin: auto;
+    top: 7.82vh;
+    right: 0;
+    left: 0;
+    background: url(../images/p3_logo.png) no-repeat center center;
+    background-size: 100%;
 }
 
 #page3 .p3_title {
-	
-}
+	width: 48.125vw;
+	height: 50vh;
+	position: absolute;
+    margin: auto;
+    top: 21vh;
+    right: 0;
+    left: 0;
+    background: url(../images/p3_title.png) no-repeat center center;
+    background-size: 100%;
 
+}
+/*上联*/
 #page3 .p3_second {
-	
+	width: 22.8125vw;
+	height: 41.652vh;
+	position: absolute;
+    top: 25.48vh;
+    left: 3.75vw;
+    background: url(../images/p3_couplet_second.png) no-repeat center center;
+    background-size: 100%;
 }
-
+/*下联*/
 #page3 .p3_first {
-	
+	width: 22.8125vw;
+	height: 41.652vh;
+	position: absolute;
+    top: 25.48vh;
+    right: 3.75vw;
+    background: url(../images/p3_couplet_first.png) no-repeat center center;
+    background-size: 100%;
 }
-
+/*福字*/
 #page3 .p3_blessing {
-	
+	width: 32vw;
+	height: 32vw;
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10vh;
+    margin: auto;
+    border-radius: 50%;
+    background: url(../images/p3_blessing.png) no-repeat center center;
+    background-size: 100%;
 }
