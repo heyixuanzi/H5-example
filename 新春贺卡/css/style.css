@@ -59,6 +59,71 @@ body {
 	background: url(../images/p1_bg.jpg) no-repeat center center;
     background-size: 100%;
 }
+/*灯笼*/
+#page1 .p1_lantern {
+	position: absolute;
+	width: 45vw;
+	height: 71.2vh;
+	top: -3.4%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background: url(../images/p1_lantern.png) no-repeat center bottom;
+	background-size: 100%;
+	padding-top: 31vh;
+	font-size: 3.506rem;
+	text-align: center;
+    /*兼容性处理*/
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+/*粉色背景*/
+#page1 .p1_lantern:before {
+	content: "";
+	z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    background: #d60b3b;
+    opacity: .5;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10vw 10vw #d60b3b;
+       -moz-box-shadow: 0 0 10vw 10vw #d60b3b;
+        -ms-box-shadow: 0 0 10vw 10vw #d60b3b;
+         -o-box-shadow: 0 0 10vw 10vw #d60b3b;
+            box-shadow: 0 0 10vw 10vw #d60b3b;
+}
+/*慕课网logo*/
+#page1 .p1_imooc {
+    position: absolute;
+    right: 0;
+    bottom: 9vh;
+    left: 0;
+    background: url(../images/p1_imooc.png) no-repeat center center;
+    background-size: 100%;
+    width: 27.656vw;
+    height: 18.63vh;
+    margin: auto;
+}
+/*底部文字*/
+#page1 .p1_words {
+	font-size: 3.134rem;
+	position: absolute;
+    right: 0;
+    bottom: 48px;
+    left: 0;
+    text-align: center;
+    color: #231815;
+}
+
 
 /*page_2*/
 #page2 .bg {
