@@ -89,7 +89,7 @@ body {
 
 /*page_1*/
 #page1 {
-    display: none;
+    display: block;
 }
 
 #page1 .bg {
@@ -105,6 +105,7 @@ body {
 	right: 0;
 	left: 0;
 	margin: auto;
+    color: #fff;
 	background: url(../images/p1_lantern.png) no-repeat center bottom;
 	background-size: 100%;
 	padding-top: 31vh;
@@ -193,6 +194,15 @@ body {
 /*page_2*/
 #page2 {
    display: none;
+   -webkit-transition: .5s;
+           transition: .5s;
+}
+
+/*翻页效果*/
+#page2 .fadeOut {
+    opacity: .3;
+    -webkit-transform: translate(0,-100%);
+            transform: translate(0,-100%);
 }
 
 #page2 .bg {
@@ -341,7 +351,16 @@ body {
 
 /*page_3*/
 #page3 {
-   display: block;
+   display: none;
+   -webkit-transition: .5s;
+           transition: .5s;
+}
+
+/*翻页效果*/
+#page3 .fadeIn {
+    opacity: .3;
+    -webkit-transform: translate(0,-100%);
+            transform: translate(0,-100%);
 }
 
 #page3 .bg {
