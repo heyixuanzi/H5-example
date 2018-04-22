@@ -44,6 +44,8 @@ body {
 
 /*page background*/
 .page {
+	position: absolute;
+	width: 100%;
 	height: 100%;
 }
 
@@ -55,6 +57,10 @@ body {
 }
 
 /*page_1*/
+#page1 {
+    display: none;
+}
+
 #page1 .bg {
 	background: url(../images/p1_bg.jpg) no-repeat center center;
     background-size: 100%;
@@ -126,13 +132,99 @@ body {
 
 
 /*page_2*/
+#page2 {
+   display: block;
+}
+
 #page2 .bg {
 	background: url(../images/p2_bg.jpg) no-repeat center center;
     background-size: 100%;
 }
+/*外圈*/
+#page2 .p2_circle {
+	position: absolute;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: url(../images/p2_circle_outer.png) no-repeat center center;
+    background-size: 100%;
+    width: 59.375vw;
+    height: 59.375vw;
+}
+/*中圈*/
+#page2 .p2_circle:before {
+	position: absolute;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    content: " ";
+    background: url(../images/p2_circle_middle.png) no-repeat center center;
+    background-size: 100%;
+    width: 45.625vw;
+    height: 45.625vw;
+}
+
+/*内圈*/
+#page2 .p2_circle:after {
+	position: absolute;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    content: " ";
+    background: url(../images/p2_circle_inner.png) no-repeat center center;
+    background-size: 100%;
+    width: 39.9375vw;
+    height: 39.9375vw;
+}
+
+#page2 .p2_2016 {
+	position: absolute;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: url(../images/p2_2016.png) no-repeat center center;
+    background-size: 100%;
+    width: 27.5vw;
+    height: 6.24vh;
+}
 
 /*page_3*/
+#page3 {
+   display: none;
+}
+
 #page3 .bg {
 	background: url(../images/p3_bg.jpg) no-repeat center center;
     background-size: 100%;
+}
+
+#page3 .p3_logo {
+
+}
+
+#page3 .p3_title {
+	
+}
+
+#page3 .p3_second {
+	
+}
+
+#page3 .p3_first {
+	
+}
+
+#page3 .p3_blessing {
+	
 }
