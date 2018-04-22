@@ -7,6 +7,11 @@
 	font-family: "Micro Yahei";
 }
 
+html,
+body {
+	height: 100%;
+}
+
 /* 音乐小图标组件 */
 .music {
 	position: fixed;
@@ -38,9 +43,31 @@
 }
 
 /*page background*/
+.page {
+	height: 100%;
+}
+
+.page .bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
 
 /*page_1*/
+#page1 .bg {
+	background: url(../images/p1_bg.jpg) no-repeat center center;
+    background-size: 100%;
+}
 
 /*page_2*/
+#page2 .bg {
+	background: url(../images/p2_bg.jpg) no-repeat center center;
+    background-size: 100%;
+}
 
 /*page_3*/
+#page3 .bg {
+	background: url(../images/p3_bg.jpg) no-repeat center center;
+    background-size: 100%;
+}
