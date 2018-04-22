@@ -192,7 +192,7 @@ body {
 
 /*page_2*/
 #page2 {
-   display: block;
+   display: none;
 }
 
 #page2 .bg {
@@ -341,7 +341,7 @@ body {
 
 /*page_3*/
 #page3 {
-   display: none;
+   display: block;
 }
 
 #page3 .bg {
