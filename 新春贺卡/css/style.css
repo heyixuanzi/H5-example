@@ -45,7 +45,7 @@ body {
 }
 
 /*
-** 动画部分
+** 碟片旋转动画
 */
 .music img.play {	
 	-webkit-animation: music_disc 4s linear infinite;
@@ -137,7 +137,34 @@ body {
         -ms-box-shadow: 0 0 10vw 10vw #d60b3b;
          -o-box-shadow: 0 0 10vw 10vw #d60b3b;
             box-shadow: 0 0 10vw 10vw #d60b3b;
+    -webkit-animation：p1_lantern .5s infinite alternate;
+	        animation：p1_lantern .5s infinite alternate;
 }
+/*
+** 灯笼闪烁动画
+*/
+@-webkit-keyframes p1_lantern {
+    0% {
+        opacity: .5;
+        -webkit-transform: scale(.8 , .8);
+		        transform: scale(.8 , .8);
+    }
+    100% {
+    	opacity: 1;
+    }
+}
+@keyframes p1_lantern {
+    0% {
+        opacity: .5;
+        -webkit-transform: scale(.8 , .8);
+		        transform: scale(.8 , .8);
+    }
+    100% {
+    	opacity: 1;
+    }
+}
+
+
 /*慕课网logo*/
 #page1 .p1_imooc {
     position: absolute;
