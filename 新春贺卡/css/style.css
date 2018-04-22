@@ -30,6 +30,7 @@ body {
     top: 24%;
     right: 2.5%;
     width: 28.421%;
+    z-index: 1;
 }
 
 .music img:last-of-type {
@@ -40,7 +41,37 @@ body {
     left: 0;
     margin: auto;
     width: 79%;
+    z-index: 0;
 }
+
+/*
+** 动画部分
+*/
+.music img.play {	
+	-webkit-animation: music_disc 4s linear infinite;
+	        animation: music_disc 4s linear infinite;
+}
+@-webkit-keyframes music_disc {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+@keyframes music_disc {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
 
 /*page background*/
 .page {
@@ -58,7 +89,7 @@ body {
 
 /*page_1*/
 #page1 {
-    display: none;
+    display: block;
 }
 
 #page1 .bg {
@@ -201,7 +232,7 @@ body {
 
 /*page_3*/
 #page3 {
-   display: block;
+   display: none;
 }
 
 #page3 .bg {
