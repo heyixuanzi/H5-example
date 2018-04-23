@@ -10,9 +10,9 @@
   	</header>
   	<div class="left">
   		<ui>
-  			<li>music 1</li>
-  			<li>music 2</li>
-  			<li>music 3</li>
+		<% music.forEach(function(name){ %>
+        <li title="<%= name %>"><%= name %></li>
+        <% }) %>
   		</ui>
   	</div>
   	<div class="right"></div>
