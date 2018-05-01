@@ -215,7 +215,7 @@ body {
 
 /*page_2*/
 #page2 {
-   display: block;
+   display: none;
 }
 
 #page2 .bg {
@@ -285,10 +285,21 @@ body {
     height: 32.24vh;
 }
 
+#page2 .p2_words {
+    font-size: 4.734rem;
+    position: absolute;
+    right: 1vw;
+    left: 0;
+    top: 15vh;
+    text-align: center;
+    color: rgb(169,94,55);
+    -webkit-animation:p1_words 2s infinite alternate;
+            animation:p1_words 2s infinite alternate;
+}
 
 /*page_3*/
 #page3 {
-   display: none;
+   display: block;
 }
 
 #page3 .bg {
