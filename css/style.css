@@ -90,7 +90,7 @@ body {
 
 /*page_1*/
 #page1 {
-    display: none;
+    display: block;
 }
 
 #page1 .bg {
@@ -299,7 +299,7 @@ body {
 
 /*page_3*/
 #page3 {
-   display: block;
+   display: none;
 }
 
 #page3 .bg {
