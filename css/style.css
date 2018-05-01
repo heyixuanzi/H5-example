@@ -303,90 +303,15 @@ body {
 }
 
 #page3 .bg {
-	background: url(../images/p3_bg.jpg) no-repeat center center;
+	background: url(../images/p3_bg.jpg) no-repeat top center;
     background-size: 100%;
 }
 
-#page3 .p3_logo {
-    width: 34.6875vw;
-    height: 6.327vh;
+#page3 #videoDiv {
     position: absolute;
-    margin: auto;
-    top: 7.82vh;
-    right: 0;
-    left: 0;
-    background: url(../images/p3_logo.png) no-repeat center center;
-    background-size: 100%;
-}
-
-#page3 .p3_title {
-	width: 48.125vw;
-	height: 50vh;
-	position: absolute;
-    margin: auto;
-    top: 21vh;
-    right: 0;
-    left: 0;
-    background: url(../images/p3_title.png) no-repeat center center;
-    background-size: 100%;
-
-}
-/*上联*/
-#page3 .p3_second {
-	width: 22.8125vw;
-	height: 41.652vh;
-	position: absolute;
-    top: 25.48vh;
-    left: 3.75vw;
-    background: url(../images/p3_couplet_second.png) no-repeat center center;
-    background-size: 100%;
-}
-/*下联*/
-#page3 .p3_first {
-	width: 22.8125vw;
-	height: 41.652vh;
-	position: absolute;
-    top: 25.48vh;
-    right: 3.75vw;
-    background: url(../images/p3_couplet_first.png) no-repeat center center;
-    background-size: 100%;
-}
-/*福字*/
-#page3 .p3_blessing {
-	width: 32vw;
-	height: 32vw;
-	position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10vh;
-    margin: auto;
-    border-radius: 50%;
-    background: url(../images/p3_blessing.png) no-repeat center center;
-    background-size: 100%;
-    /* animation动画 */
-    -webkit-animation:p3_blessing 2s linear infinite ;
-	        animation:p3_blessing 2s linear infinite ;
-}
-/*
-** 内圈旋转动画
-*/
-@-webkit-keyframes p3_blessing {
-    0% {
-        -webkit-transform: rotate(0deg);
-		        transform: rotate(0deg);
-    }
-    100% {
-    	-webkit-transform: rotate(360deg);
-		        transform: rotate(360deg);
-    }
-}
-@keyframes p3_blessing {
-    0% {
-        -webkit-transform: rotate(0deg);
-		        transform: rotate(0deg);
-    }
-    100% {
-    	-webkit-transform: rotate(360deg);
-		        transform: rotate(360deg);
-    }
+    bottom: 0;
+    left: 1vw;
+    margin:  0 auto;
+    width: 27.5vw;
+    height: 32.24vh;
 }
