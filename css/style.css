@@ -315,3 +315,14 @@ body {
     width: 27.5vw;
     height: 32.24vh;
 }
+
+#page3 .p3_words {
+    font-size: 2.734rem;
+    position: absolute;
+    right: 1vw;
+    left: 0;
+    top: 58vh;
+    text-align: center;
+    color: rgb(169,94,55);
+    -webkit-animation:p1_words 2s infinite alternate;
+}

@@ -25,7 +25,7 @@ window.onload = () => {
         page1.style.display = 'none';
         page2.style.display = 'block';
         page3.style.display = 'block';
-        page3.style.top       = '100%'; 
+        page3.style.top     = '100%'; 
 
         setTimeout(() => {
             page2.setAttribute('class','page fadeOut');
